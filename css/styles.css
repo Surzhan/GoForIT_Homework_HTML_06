@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.container {
+	width: 907px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+header {
+	height: 330px;
+}
+
+footer {
+	height: 99px;
+	background-color: #213a4d;
+}
+
+footer p {
+	font-size: 10px;
+	color: #7f4740;
+}
+
+.registration-block {
+	height: 25px;
+}
+
+.contacts,
+.registration-form,
+.mini-menu {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.logo {
+	margin-bottom: 6px;
+}
+
+.main-menu {
+	width: 912px;
+	height: 34px;
+	margin-bottom: 10px;
+	background-color: white;
+	background-image: linear-gradient(to top, black 0%, #576068 100%);
+	border: 1px solid #0d1642;
+	border-radius: 5px;
+	box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+	color: #b1bcc0;
+}
+
+.main-menu li{
+	position: relative;
+	float: left;
+	margin: 0 30px;
+}
+
+.main-menu a {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 34px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #b1bcc0;
+}
+
+.shopping-cart {
+	position: relative;
+	float: right;
+}
+
+.search-filters {
+	
+}
+.search-filters-car {
+	display: inline-block;
+	vertical-align: middle;
+	width: 412px;
+	height: 134px;
+	margin-right: 16px;
+	background-color: white;
+	border: 1px solid #9c9c9d;
+	border-radius: 17px;
+	box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
+
+}
+
+.search-filters-tire {
+	display: inline-block;
+	vertical-align: middle;
+	width: 191px;
+	height: 137px;
+	margin-right: 1px;
+	background-color: white;
+	border: 1px solid #9c9c9d;
+	border-radius: 17px;
+	box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+}
+
+.search-filters-wheels {
+	display: inline-block;
+	vertical-align: middle;
+	width: 266px;
+	height: 136px;
+	background-color: white;
+	border: 1px solid #9c9c9d;
+	border-radius: 14px;
+	box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+}
