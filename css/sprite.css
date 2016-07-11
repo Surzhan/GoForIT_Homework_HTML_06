@@ -1,0 +1,95 @@
+.ico_Tire-Factory, .ico_menu-icon, .ico_Toyo, .ico_Continental, .ico_Cooper, .ico_Telephone, .ico_registration-menu-icon, .ico_Shopping-cart, .ico_Bridgestone, .ico_Pirelli, .ico_Avon, .ico_Dunlop, .ico_Home, .ico_Map-site, .ico_Letter {
+  display: inline-block;
+  background-image: url(../img/spritebox-sprite.png);
+  background-repeat: no-repeat
+}
+
+.ico_Tire-Factory {
+  background-position: -0px -0px;
+  height: 27px;
+  width: 57px;
+}
+
+.ico_menu-icon {
+  background-position: -0px -27px;
+  height: 23px;
+  width: 23px;
+}
+
+.ico_Toyo {
+  background-position: -57px -0px;
+  height: 21px;
+  width: 83px;
+}
+
+.ico_Continental {
+  background-position: -57px -21px;
+  height: 21px;
+  width: 77px;
+}
+
+.ico_Cooper {
+  background-position: -0px -50px;
+  height: 21px;
+  width: 59px;
+}
+
+.ico_Telephone {
+  background-position: -23px -27px;
+  height: 21px;
+  width: 22px;
+}
+
+.ico_registration-menu-icon {
+  background-position: -59px -50px;
+  height: 18px;
+  width: 14px;
+}
+
+.ico_Shopping-cart {
+  background-position: -73px -50px;
+  height: 17px;
+  width: 21px;
+}
+
+.ico_Bridgestone {
+  background-position: -0px -71px;
+  height: 14px;
+  width: 97px;
+}
+
+.ico_Pirelli {
+  background-position: -0px -85px;
+  height: 14px;
+  width: 61px;
+}
+
+.ico_Avon {
+  background-position: -61px -85px;
+  height: 13px;
+  width: 77px;
+}
+
+.ico_Dunlop {
+  background-position: -0px -99px;
+  height: 13px;
+  width: 72px;
+}
+
+.ico_Home {
+  background-position: -45px -27px;
+  height: 11px;
+  width: 12px;
+}
+
+.ico_Map-site {
+  background-position: -94px -50px;
+  height: 10px;
+  width: 14px;
+}
+
+.ico_Letter {
+  background-position: -45px -38px;
+  height: 9px;
+  width: 12px;
+}
