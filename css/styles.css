@@ -174,7 +174,7 @@ ul {
 }
 
 .main-navigation {
-	margin-bottom: 9px;
+	margin-bottom: 10px;
 	height: 32px;
 	padding-left: 100px;
 	background-color: #131517;
@@ -257,18 +257,78 @@ ul {
 
 .search-filters {
 	margin-bottom: 14px;
+	font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
 	font-size: 0;
 }
+
+.title-filters-block h3 {
+	display: inline-block;
+	margin-left: 66px;
+	margin-right: 74px;
+	font-size: 12px;
+	letter-spacing: 0.02em;
+}
+
+.search-filters-tire h3,
+.search-filters-wheels h3 {
+	margin-left: 9px;
+	margin-bottom: 9px;
+	font-family: "Arial Black", "Arial Bold", sans-serif;
+	text-transform: lowercase;
+	font-size: 12px;
+	font-weight: 800;
+	color: #114165;
+}
+
+.search-filters-wheels h3 {
+	letter-spacing: 0.07em;
+}
+
+.search-filters label {
+	position: relative;
+	display: block;
+	height: 17px;
+	margin: 1px 0px 5px 17px;
+	font-weight: 600;
+}
+
+.search-left-column label:nth-child(1),
+.search-left-column label:nth-child(4) {
+	line-height: 17px;
+}
+
+.search-right-column label:nth-child(1),
+.search-right-column label:nth-child(4) {
+	line-height: 17px;
+}
+
 .search-filters-car {
 	display: inline-block;
+	position: relative;
 	vertical-align: middle;
 	width: 414px;
 	height: 133px;
+	margin-left: 3px;
 	margin-right: 14px;
 	background-color: white;
 	border: 1px solid #9c9c9d;
 	border-radius: 17px;
 	box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
+	line-height: 0.8;
+	font-size: 10px;
+}
+
+.search-left-column {
+	display: block;
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+.search-right-column {
+	display: block;
+	float: right;
+	width: 50%;
 }
 
 .search-filters-tire {
@@ -276,11 +336,58 @@ ul {
 	vertical-align: middle;
 	width: 191px;
 	height: 135px;
-	margin-right: 11px;
+	margin-right: 10px;
 	background-color: white;
 	border: 1px solid #9c9c9d;
 	border-radius: 17px;
 	box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+	font-size: 10px;
+}
+
+.search-filters-car select {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 77px;
+	height: 17px;
+	width: 102px;
+	font-weight: 400;
+	box-shadow: -1px -1px 0px 0px rgba(0,0,0,0.75);
+}
+
+.search-filters-tire select {
+	height: 17px;
+	width: 50px;
+	font-weight: 400;
+	box-shadow: -1px -1px 0px 0px rgba(0,0,0,0.75);
+}
+
+select[name="sel-car-year-wheel"],
+select[name="sel-car-year-tire"] {
+	width: 58px;
+}
+
+select[name="sel-tire-r"] {
+	width: 45px;
+}
+
+.title-filters-block {
+	margin: 6px 0px 7px 0px;
+	text-align: center;
+	font-family: "Arial Black", "Arial Bold", sans-serif;
+	font-weight: bold;
+	color: #154468;
+}
+
+.search-filters span {
+	font-size: 9px;
+	letter-spacing: 0.01em;
+	color: #77858b;
+}
+
+.title-filters-block span {
+	font-size: 10px;
+	color: #154468;
 }
 
 .search-filters-wheels {
@@ -292,6 +399,88 @@ ul {
 	border: 1px solid #9c9c9d;
 	border-radius: 14px;
 	box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+	font-size: 10px;
+}
+
+.search-filters-tire .tire-r-title {
+	position: relative;
+	margin-left: 43px;
+	margin-bottom: 2px;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+}
+
+.search-filters-tire .sel-tire-r {
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+
+.search-filters-tire select:first-child {
+	margin-left: 3px;
+}
+
+.search-filters-tire .tire-size {
+	margin-left: 13px;
+}
+
+.search-filters-tire .checkbox-title {
+	float: left;
+	margin-right: 9px;
+	margin-left: 13px;
+}
+
+.checkbox-block {
+	float: left;
+	margin-bottom: 2px;
+}
+
+.checkbox-block label {
+	margin: 0px 0px -3px 0px;
+	font-size: 12px;
+}
+
+input[type="checkbox"] {
+	margin-right: 3px;
+}
+
+.search-filters-wheels select {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 90px;
+	height: 17px;
+	width: 57px;
+	font-weight: 400;
+	box-shadow: -1px -1px 0px 0px rgba(0,0,0,0.75);
+}
+
+.search-filters-wheels label {
+	height: 30px;
+	line-height: 0.8;
+}
+
+select[name="sel-number-fixing-holes"] {
+	width: 50px;
+}
+
+.search-filters-wheels .search-left-column {
+	width: 175px;
+}
+
+.search-filters-wheels .search-right-column {
+	width: 90px;
+}
+
+.btn-search {
+	float: right;
+	margin-right: 16px;
+	border: 0;
+	background-color: white;
+	font-size: 14px;
+	line-height: 15px;
+	text-decoration: underline;
+	font-style: italic;
+	color: #154467;
 }
 
 .main-container {
