@@ -182,11 +182,11 @@
 					</form>
 				</div>
 				<div class="search-filters-wheels">
-						<h3>Поиск дисков</h3>
 						<form>
-							<div class="search-left-column">
+							<div class="search-left-column wheels-left-column">
+								<h3>Поиск дисков</h3>
 								<label for="wheels-d">Диаметр<span> диска:</span>
-									<select name="sel-wheels-d" id="wheels-d" size="1">
+									<select class="wheels-d" name="sel-wheels-d" id="" size="1">
 										<option value="all-wheels-d">все</option>
 										<option value="12">12</option>
 										<option value="13">13</option>
@@ -194,8 +194,8 @@
 										<option value="15">15</option>
 									</select>
 								</label>
-								<label for="number-fixing-holes">Количество<br><span>крепёжных<br>отверстий:</span>
-									<select name="sel-number-fixing-holes" id="number-fixing-holes">
+								<label class="nfh" for="number-fixing-holes">Количество<br><span>крепёжных<br>отверстий:</span>
+									<select class="number-fixing-holes" name="sel-number-fixing-holes" id="number-fixing-holes">
 										<option value="all-number-fixing-holes">все</option>
 										<option value="4">4</option>
 										<option value="5">5</option>
@@ -203,8 +203,8 @@
 										<option value="8">8</option>
 									</select>
 								</label>
-								<label for="fixing-holes-d">Диаметр<br><span>расположения<br>крепёжных<br>отверстий:</span>
-									<select name="sel-fixing-holes-d" id="fixing-holes-d">
+								<label class="fhd" for="fixing-holes-d">Диаметр<br><span>расположения<br>крепёжных<br>отверстий:</span>
+									<select class="fixing-holes-d" name="sel-fixing-holes-d" id="fixing-holes-d">
 										<option value="all-holes-d">все</option>
 										<option value="98">98</option>
 										<option value="100">100</option>
@@ -213,9 +213,9 @@
 									</select>
 								</label>
 							</div>
-							<div class="search-right-column">
-								<label for="diameter-central-hole">ДЦО<br><br><span>(диаметр<br>центрального<br>отверстия):</span>
-									<select name="sel-diameter-central-hole" id="diameter-central-hole">
+							<div class="search-right-column wheels-right-column">
+								<label class="dch" for="diameter-central-hole">ДЦО<br><span>(диаметр<br>центрального<br>отверстия):</span>
+									<select class="diameter-central-hole" name="sel-diameter-central-hole" id="diameter-central-hole">
 										<option value="all-diameter-central-hole">все</option>
 										<option value="54.1">54.1</option>
 										<option value="56.1">56.1</option>
@@ -224,7 +224,7 @@
 									</select>
 								</label>
 								<label for="et">ЕТ<br><span>(вылет диска):</span>
-									<select name="sel-et" id="et">
+									<select class="et" name="sel-et" id="et">
 										<option value="all-et">все</option>
 										<option value="0">0</option>
 										<option value="10">10</option>
