@@ -469,12 +469,12 @@ input[type="checkbox"] {
 }
 
 .search-right-column .diameter-central-hole {
-	left: 2px;
+	left: 3px;
 	top: 38px;
 }
 
-.search-right-column .et {
-	left: 2px;
+.search-right-column .et-select {
+	left: 3px;
 	top: 20px;
 }
 
@@ -507,27 +507,28 @@ select[name="sel-number-fixing-holes"] {
 	height: 106px;
 	width: 175px;
 	margin-top: 3px;
-	margin-bottom: 2px;
+	margin-bottom: 3px;
 }
 
 .search-filters-wheels .search-right-column {
 	height: 106px;
 	width: 90px;
 	margin-top: 3px;
-	margin-bottom: 2px;
+	margin-bottom: 3px;
 	border-left: 1px solid #bdc6ca;
 }
 
 .search-filters-wheels .wheels-right-column label {
 	height: 36px;
 	margin-left: 9px;
-	margin-top: 3px;
-	margin-bottom: 27px;
+	margin-top: 4px;
+	margin-bottom: 26px;
 	line-height: 0.8;
 }
 
 .wheels-right-column label span {
 	letter-spacing: normal;
+	font-weight: 400;
 }
 
 .btn-search {
@@ -569,7 +570,7 @@ select[name="sel-number-fixing-holes"] {
 
 .left-column h2,
 .right-column h2 {
-	padding-left: 28px;
+	padding-left: 27px;
 	line-height: 25px;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -579,6 +580,7 @@ select[name="sel-number-fixing-holes"] {
 
 .right-column .title-menu {
 	margin-left: 10px;
+	margin-bottom: 13px;
 }
 
 .right-column h2 {
@@ -587,9 +589,14 @@ select[name="sel-number-fixing-holes"] {
 }
 
 .menu-left li {
-	margin-left: 39px;
-	margin-bottom: 3px;
+	margin-left: 55px;
+	line-height: 1.85;
 	list-style: circle;
+}
+
+.menu-left a {
+	margin-left: -8px;
+	letter-spacing: -0.02em;
 }
 
 .main-container a {
@@ -631,11 +638,11 @@ select[name="sel-number-fixing-holes"] {
 	width: 105px;
 	margin-left: 24px;
 	margin-top: 12px;
-	margin-bottom: 3px;
+	margin-bottom: 4px;
 }
 
 .check-brand li {
-	margin-left: 42px;
+	margin-left: 38px;
 	margin-bottom: 4px;
 	font-size: 13px;
 	color: #465961;
@@ -659,6 +666,7 @@ select[name="sel-number-fixing-holes"] {
 	box-shadow: 1px 2px 2px rgba(150,150,150,.75);
 	font-size: 11px;
 	text-transform: uppercase;
+	letter-spacing: 0.1em;
 	color: #e5e9ea;
 }
 
@@ -715,7 +723,7 @@ select[name="sel-number-fixing-holes"] {
 	vertical-align: top;
 	height: 190px;
 	width: 140px;
-	margin-right: 26px;
+	margin-right: 28px;
 	margin-bottom: 3px;
 	font-size: 14px;
 	text-align: center;
@@ -729,7 +737,7 @@ select[name="sel-number-fixing-holes"] {
 .product-picture {
 	position: relative;
 	margin: 0 auto;
-	width: 137px;
+	width: 136px;
 	height: 127px;
 	border-radius: 8px 7px 7px 8px/8px 8px 7px 7px;
 	background-color: #fff;
@@ -759,12 +767,14 @@ select[name="sel-number-fixing-holes"] {
 	font-weight: 500;
 	text-transform: none;
 	line-height: 0.875;
+	letter-spacing: -0.01em;
 	color: black;
 }
 
 .product-name span {
 	font-weight: 700;
 	font-size: 15px;
+	letter-spacing: normal;
 	color: #206988;
 }
 
@@ -775,13 +785,17 @@ select[name="sel-number-fixing-holes"] {
 }
 .trade-marks {
 	height: 30px;
-	margin: 40px auto 20px;
-	text-align: center;
+	margin: 43px 0px 17px 117px;
+}
+
+.trade-marks span {
+	display: inline-block;
+	vertical-align: top;
 }
 
 .trade-marks a {
 	display: inline-block;
-	padding-right: 10px;
+	padding-right: 8px;
 	vertical-align: top;
 	line-height: 30px;
 }
@@ -832,19 +846,15 @@ footer p {
 footer ul {
 	position: relative;
 	margin: 0 auto;
-	padding-left: 24px;
-	width: 330px;
-}
-
-.footer-menu {
-	text-align: center;
+	padding-left: 56px;
+	width: 350px;
 }
 
 .footer-menu li {
 	display: inline-block;
-	padding-top: 7px;
+	padding-top: 9px;
 	padding-bottom: 14px;
-	margin-right: 26px;
+	margin-right: 21px;
 	vertical-align: top;
 }
 
@@ -852,6 +862,7 @@ footer ul {
 	color: #bec6c9;
 	font-size: 12px;
 	text-decoration: none;
+	letter-spacing: 0.03em;
 }
 
 .footer-menu a:hover {
@@ -860,8 +871,8 @@ footer ul {
 
 .vertical-bar {
 	position: absolute;
-	left: 186px;
-	top: 12px;
+	left: 137px;
+	top: 14px;
 	width: 1px;
 	height: 11px;
 	background: #7a878f;
@@ -869,9 +880,9 @@ footer ul {
 }
 
 .vertical-bar-1 {
-	left: 109px;
+	left: 216px;
 }
 
 .vertical-bar-2 {
-	left: 254px;
+	left: 283px;
 }
